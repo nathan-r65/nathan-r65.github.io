@@ -5,8 +5,8 @@
 	</head>
 	<body>
 		<pre>window.webkit.messageHandlers.displayManager.postMessage()</pre>
-		<button onclick="javascript:window.webkit.messageHandlers.displayManager.postMessage('show this text in an alert')">Show alert</button>
+		<button onclick="javascript:window.webkit.messageHandlers.displayManager.postMessage('{\'title\': \'show this text in an alert\', \'description\': \'description here\'}')">Show alert</button>
 		<pre>displayManager.postMessage()</pre>
-		<button onclick="javascript:displayManager.postMessage('show this text in an alert')">Show alert</button>
+		<button onclick="javascript:displayManager.postMessage('{\'title\': \'show this text in an alert\', \'description\': \'description here\'}')">Show alert</button>
 	</body>
 </html>
